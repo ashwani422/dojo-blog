@@ -1,5 +1,33 @@
 # Getting Started with Create React App
 
+In order to run this project first of all you need to run:
+
+### `npm install`
+
+Because this project uses json-server so you need to either install json-server package:
+
+### `npm i json-server`
+
+And watch file on port 8000:
+
+### `json-server --watch data/db.json --port 8000`
+
+Or you can just use npx for one time use case:
+
+### `npx json-server --watch data/db.json --port 8000`
+
+You can read more about json-server package [here](https://www.npmjs.com/package/json-server).
+
+####Run the application:
+
+### `npm run start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

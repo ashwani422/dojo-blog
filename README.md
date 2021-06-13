@@ -26,7 +26,7 @@ npx json-server --watch data/db.json --port 8000
 
 You can read more about json-server package [here](https://www.npmjs.com/package/json-server).
 
-####Run the application:
+#### Run the application:
 
 ```
 npm run start
